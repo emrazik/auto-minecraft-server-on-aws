@@ -1,5 +1,7 @@
 # Auto Deployed Minecraft Server with Terraform and AWS
 
+> :warning: **This isn't the most secure way to deploy this**: Use this at your own risk!
+
 ## What is this and how does it work?
 This is a way to auto deploy and confiugre a minecraft server on AWS. It uses Terraform to set up the infrastructure and a bash script to perform the necessary configuration
 
@@ -25,12 +27,6 @@ This is a way to auto deploy and confiugre a minecraft server on AWS. It uses Te
 
 
 ### This script inspired by these resources
-
-
-
-
-
-
 
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build
 https://linuxhint.com/create-security-groups-aws-terraform/
