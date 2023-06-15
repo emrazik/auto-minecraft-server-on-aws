@@ -8,7 +8,7 @@ This is a way to auto deploy and confiugre a minecraft server on AWS. It uses Te
 2. install [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 3. install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 4. Store your [aws credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html). These will likely be stored in ~/.aws/credentials on your computer
-5. Make by typing `ssh-keygen -t rsa -b 2048 -f mc-key` into your terminal in this directory. Follow the defualt steps by hitting enter.
+5. Make a public ssh key by typing `ssh-keygen -t rsa -b 2048 -f mc-key` into your terminal in this directory. Follow the defualt steps by hitting enter.
 
 
 ## Set up the server
